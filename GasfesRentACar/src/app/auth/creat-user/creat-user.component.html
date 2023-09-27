@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title >Cadastro de Usuário</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button slot="end" color="medium" (click)="cancel()">
+        <ion-icon name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+        
+    <ion-card-content>
+      <form [formGroup]="cadForm" action="">      
+        <ion-list>
+          <ion-item>
+            <ion-input formControlName="nomeCompleto" label="Nome Completo" placeholder="Digite seu nome"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input formControlName="cpf" label="Cpf" placeholder="Digite cpf"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input formControlName="login" label="Email para login" placeholder="Digite seu email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input formControlName="senha" label="Senha" type="password" placeholder="Digite sua senha"></ion-input>
+          </ion-item>  
+      </ion-list>
+    </form>
+    </ion-card-content>
+    <div class="ion-text-end">
+      <ion-button fill="clear" color="primary" (click)="confirm()" >
+        Salvar
+      </ion-button> 
+      <ion-button *ngIf='showDeleteButton()' fill="clear" color="primary" (click)="delete()" >
+        Deletar meu perfil
+      </ion-button>            
+    </div>
+  </ion-card>
+  
+</ion-content>

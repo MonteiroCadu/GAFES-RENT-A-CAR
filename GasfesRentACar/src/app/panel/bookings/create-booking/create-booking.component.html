@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title >{{place.title}}</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button slot="end" color="medium" (click)="cancel()">
+        <ion-icon name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content text-center padding>
+  <ion-item>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col>
+          <p><ion-label>Booking this now!</ion-label></p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="confirm()">Book</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+</ion-content>

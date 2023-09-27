@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SipWeb.Base.Dominio", "Base\Dominio\SipWeb.Base.Dominio\SipWeb.Base.Dominio.csproj", "{BD8C5A8F-1E19-4AF7-A896-A42DDFB20941}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SipWeb.Aplicacao.Api.Monolito", "Aplicacao\SipWeb.Aplicacao.Api.Monolito\SipWeb.Aplicacao.Api.Monolito.csproj", "{DCFFA312-EA06-4A75-9AFB-A147B1BA1814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SipWeb.Base.Infra", "Base\Infra\SipWeb.Base.Infra\SipWeb.Base.Infra.csproj", "{6AD93192-0857-42BD-9A05-A6DBFD69C82C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SipWeb.Base.Servicos", "Base\SipWeb.Base.Servicos\SipWeb.Base.Servicos.csproj", "{7D2DB84B-7321-4198-AD56-C637E875DA68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SipWeb.Base.CasosDeUso", "Base\SipWeb.Autenticacao.CasosDeUso\SipWeb.Base.CasosDeUso.csproj", "{4FE33A65-B2B1-4F42-A383-A1C06F73CB88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SipWeb.Base.Testes.CasosDeUso", "Base\SipWeb.Base.Testes.CasosDeUso\SipWeb.Base.Testes.CasosDeUso.csproj", "{EE58C3F5-8286-4BA3-9080-7D2FD4EFE29E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD8C5A8F-1E19-4AF7-A896-A42DDFB20941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8C5A8F-1E19-4AF7-A896-A42DDFB20941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8C5A8F-1E19-4AF7-A896-A42DDFB20941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8C5A8F-1E19-4AF7-A896-A42DDFB20941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFFA312-EA06-4A75-9AFB-A147B1BA1814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFFA312-EA06-4A75-9AFB-A147B1BA1814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFFA312-EA06-4A75-9AFB-A147B1BA1814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFFA312-EA06-4A75-9AFB-A147B1BA1814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD93192-0857-42BD-9A05-A6DBFD69C82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD93192-0857-42BD-9A05-A6DBFD69C82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD93192-0857-42BD-9A05-A6DBFD69C82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD93192-0857-42BD-9A05-A6DBFD69C82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2DB84B-7321-4198-AD56-C637E875DA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2DB84B-7321-4198-AD56-C637E875DA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2DB84B-7321-4198-AD56-C637E875DA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2DB84B-7321-4198-AD56-C637E875DA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE33A65-B2B1-4F42-A383-A1C06F73CB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE33A65-B2B1-4F42-A383-A1C06F73CB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE33A65-B2B1-4F42-A383-A1C06F73CB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE33A65-B2B1-4F42-A383-A1C06F73CB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE58C3F5-8286-4BA3-9080-7D2FD4EFE29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE58C3F5-8286-4BA3-9080-7D2FD4EFE29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE58C3F5-8286-4BA3-9080-7D2FD4EFE29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE58C3F5-8286-4BA3-9080-7D2FD4EFE29E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9297825F-406C-4DDE-9CCF-1AAE12EFB692}
+	EndGlobalSection
+EndGlobal
